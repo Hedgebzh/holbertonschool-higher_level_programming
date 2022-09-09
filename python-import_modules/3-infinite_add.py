@@ -6,4 +6,4 @@ if __name__ == "__main__":
     n = len(sys.argv)
     for index in range(1, n):
         add_result += int(sys.argv[index])
-    print('{}'.format(add_result), end="")
+    print('{}'.format(add_result), end="\n")
