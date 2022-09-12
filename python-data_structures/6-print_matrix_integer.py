@@ -6,4 +6,3 @@ def print_matrix_integer(matrix=[[]]):
             if idx != (len(matrix[i]) - 1):
                 print(" ", end="")
         print("")
-
