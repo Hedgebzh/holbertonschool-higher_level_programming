@@ -5,5 +5,8 @@ def roman_to_int(roman_string):
     if roman_string is None or isinstance(roman_string, str) is False:
         return (0)
     for i in range(len(roman_string)):
-        r += romdic[roman_string[i]]
+        if i > 0 and romdic[roman_string[i]] > romdic[roman_string[i - 1]]:
+            r += romdic[roman_string[i]]
+        else:
+            r += romdic[roman_string[i]]
     return (r)
