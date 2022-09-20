@@ -1,5 +1,6 @@
 #!/usr/bin/python3
+'''module document'''
 class Square:
     '''My new class named square'''
     pass
-     '''an empty block'''
+
