@@ -21,12 +21,12 @@ class Square:
 
     def area(self):
         area = self.__size**2
-        return (self.__size * self.__size)
+        return (area)
 
     def my_print(self):
         if self.__size == 0:
-            print("\n", end="")
-        for i in range(self.size):
+            print("")
+        for i in range(self.size): #boucle hauteur
             for i in range(self.size):
-                print("#", end="")
+                print("#", end="")   #boucle largeur
             print("")
