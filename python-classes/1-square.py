@@ -5,4 +5,4 @@
 class Square:
     '''Class named square'''
     def __init__(self, size):
-        pass
+        self.__size = size
