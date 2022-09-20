@@ -1,3 +1,5 @@
 #!/usr/bin/python3
 class Square:
-    pass #an empty block
+    """My new class named square"""
+    pass
+    """an empty block"""
