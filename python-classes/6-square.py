@@ -2,14 +2,11 @@
 '''module documentation'''
 
 
-from turtle import position
-
-
 class Square:
     '''Class named square'''
     def __init__(self, size=0, position=(0, 0)):
         self.__size = size
-        self.__position = position=(0, 0)
+        self.__position = position
 
     @property
     def size(self):
@@ -30,6 +27,10 @@ class Square:
     @position.setter
     def position(self, value):
         if not isinstance(value, int):
+            raise TypeError("position must be a tuple of 2 positive integers")
+        elif value < 0:
+            raise TypeError("position must be a tuple of 2 positive integers")
+        elif len(self.__position) != 2:
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
