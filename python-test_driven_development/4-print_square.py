@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-from typing import Type
+"""Module for print some forms"""
 
 
 def print_square(size):
+    """Square print function"""
     if not isinstance(size, int):
         raise TypeError("size must be an integer")
     if size < 0:
