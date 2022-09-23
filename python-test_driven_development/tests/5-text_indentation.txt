@@ -1,3 +1,5 @@
+# 5-text_indentation.txt
+
 ================================
 How to Use 5-text_indentation.py
 ================================
@@ -36,6 +38,17 @@ Similarly, no spaces are printed at the end of each printed line.
     >>> text_indentation("Hello.   ")
     Hello.
     <BLANKLINE>
+
+::
+
+    >>> text_indentation("    Woah now.    This is messy.   ")
+    Woah now.
+    <BLANKLINE>
+    This is messy.
+    <BLANKLINE>
+
+New lines are only printed for the characters ``.``, ``?``, and ``:`` -
+text not ending with one of these characters is not ended with a new line.
 
 ::
 
