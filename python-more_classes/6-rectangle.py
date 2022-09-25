@@ -55,10 +55,11 @@ class Rectangle:
             rectangle.append("\n")
         return ("".join(rectangle))[:-1]
 
-    def __repr__(self): # récrée littéralement l'objet ?
+    def __repr__(self):
         new_rectangle = "Rectangle (" + str(self.width)
         new_rectangle += "," + str(self.height) + ")"
         return (new_rectangle)
 
     def __del__(self):
+        type(self).number_of_instances -= 1
         print("Bye rectangle...")
