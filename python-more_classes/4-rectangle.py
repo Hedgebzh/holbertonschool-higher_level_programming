@@ -52,6 +52,6 @@ class Rectangle:
         return ("".join(rectangle))[:-1]
 
     def __repr__(self):
-        new_rectangle = "Rectangle (" + str(self.width)
-        new_rectangle += ", " + str(self.height) + ")"
+        new_rectangle = "Rectangle (" + str(self.__width)
+        new_rectangle += ", " + str(self.__height) + ")"
         return (new_rectangle)
