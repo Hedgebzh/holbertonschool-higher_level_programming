@@ -50,11 +50,3 @@ class Rectangle:
                 rectangle.append("#")
             rectangle.append("\n")
         return ("".join(rectangle))[:-1]
-
-
-
-
-
-
-
-
