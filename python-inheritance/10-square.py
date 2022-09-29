@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""new class named square"""
+"""new module for new class"""
 Rectangle = __import__('9-rectangle.py').Rectangle
 
 
