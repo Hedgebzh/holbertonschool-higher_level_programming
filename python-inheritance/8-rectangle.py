@@ -18,8 +18,8 @@ class BaseGeometry:
 class Rectangle(BaseGeometry):
     """new class inherits of Basegeometry"""
     def __init__(self, width, height):
-        self.width = width
-        self.integer_validator("width", width)
-        self.height = height
-        self.integer_validator("width", width)
 
+        self.integer_validator("width", width)
+        self.width = width
+        self.integer_validator("height", height)
+        self.height = height
