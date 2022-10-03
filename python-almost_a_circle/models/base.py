@@ -1,9 +1,12 @@
 #!/usr/bin/python3
 """Base module for almost a circle"""
 
+
 class Base:
     """Base class for almost a circle"""
+
     __nb_objects = 0
+
     def __init__(self, id=None):
         """Init function of the class"""
         if id is not None:
