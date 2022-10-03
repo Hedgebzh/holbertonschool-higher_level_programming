@@ -2,6 +2,7 @@
 """Rectangle module for almost a circle"""
 from models.base import Base
 
+
 class Rectangle(Base):
     """Represent a rectangle"""
 
@@ -43,4 +44,3 @@ class Rectangle(Base):
     @y.setter
     def y(self, value):
         self.__y = value
-
