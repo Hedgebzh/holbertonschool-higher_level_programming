@@ -7,6 +7,7 @@ class Rectangle(Base):
     """Represent a rectangle"""
 
     def __init__(self, width, height, x=0, y=0, id=None):
+        """Initialize with defaults attribute the object"""
         super().__init__(id)
         self.width = width
         self.height = height
@@ -60,3 +61,8 @@ class Rectangle(Base):
         if value < 0:
             raise ValueError("y must be >= 0")
         self.__y = value
+
+    def area(self):
+        """Function for calculate area of the rectangle"""
+        return (self.__width * self.__height)
+
