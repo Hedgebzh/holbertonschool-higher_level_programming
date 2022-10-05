@@ -46,7 +46,7 @@ class TestSquare_update_args(unittest.TestCase):
       """Test update function with zero args"""
       s = Square(5, 5, 5, 5)
       s.update()
-      self.assertEqual("[Square] (1) 5/5 - 5", str(s))
+      self.assertEqual("[Square] (5) 5/5 - 5", str(s))
 
     def test_update_one_args(self):
       """Test update function with one args"""
