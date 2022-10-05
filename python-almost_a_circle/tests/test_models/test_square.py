@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Unit tests for Square class"""
+"Unit tests for Rectangle class"
 import unittest
 from models.square import Square
 
