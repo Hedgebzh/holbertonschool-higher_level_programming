@@ -48,6 +48,6 @@ class Square(Rectangle):
                 elif key == "size":
                     self.size = value
                 elif key == "x":
-                    self.x == value
+                    self.x = value
                 elif key == "y":
                     self.y = value

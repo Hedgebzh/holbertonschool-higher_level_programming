@@ -109,8 +109,8 @@ class Rectangle(Base):
                 elif key == "width":
                     self.width = value
                 elif key == "height":
-                    self.height == value
+                    self.height = value
                 elif key == "x":
-                    self.x == value
+                    self.x = value
                 elif key == "y":
                     self.y = value
