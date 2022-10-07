@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 """Base module for almost a circle"""
-
-
 import json
 
 
