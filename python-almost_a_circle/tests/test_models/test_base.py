@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 "Unit tests for Base class"
-from re import A
 import unittest
 from models.base import Base
 
