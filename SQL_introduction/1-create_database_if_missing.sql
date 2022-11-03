@@ -2,3 +2,4 @@
 
 -- command for create database
 CREATE DATABASE hbtn_0c_0;
+CREATE DATABASE IF EXISTS hbtn_0c_0;
