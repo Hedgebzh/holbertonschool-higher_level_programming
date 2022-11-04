@@ -1,5 +1,4 @@
 -- Task description : Write a script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server.
 
 -- command for show and list all database on the server
-SELECT * WHERE name IS NOT NULL;
-ORDER BY score DESC;
+SELECT score FROM second_table ORDER BY score DESC;
