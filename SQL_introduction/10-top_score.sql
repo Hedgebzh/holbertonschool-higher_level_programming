@@ -2,3 +2,4 @@
 
 -- command for show and list all database on the server
 
+SELECT (score, name) FROM second_table WHERE score >= 10 ORDER BY (score);
