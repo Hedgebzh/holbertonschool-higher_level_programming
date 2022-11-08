@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-'''module document'''
+'''module documentation'''
 
 
 class Square:
-    '''My new class named square'''
+    '''Class named square'''
     pass
