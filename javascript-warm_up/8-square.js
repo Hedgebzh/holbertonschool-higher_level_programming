@@ -13,4 +13,3 @@ while (y < process.argv[2]) {
   console.log(square);
   y++;
 }
-
