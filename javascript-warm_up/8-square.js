@@ -5,7 +5,7 @@ let y = 0;
 let square = '';
 
 if (isNaN(process.argv[2])) {
-    console.log('Missing size');
+  console.log('Missing size');
 }
 
 while (i < process.argv[2]) {
