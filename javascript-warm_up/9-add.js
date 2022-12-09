@@ -3,8 +3,8 @@
 process.argv[2] = process.argv[2] * 1;
 process.argv[3] = process.argv[3] * 1;
 
-function add(a, b) {
-  c = a + b;
+function add (a, b) {
+  const c = a + b;
   return (c);
 }
 
