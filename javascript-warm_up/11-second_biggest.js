@@ -10,7 +10,7 @@ let i = 3;
 biggest_n = process.argv[2];
 
 while (process.argv[i] != undefined) {
-    if (process.argv[i] > process.argv[i - 1]) {
+    if (process.argv[i] > biggest_n) {
     biggest_n = process.argv[i];
     }
     i++;
