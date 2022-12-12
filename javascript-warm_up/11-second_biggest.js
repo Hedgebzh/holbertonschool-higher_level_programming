@@ -19,7 +19,7 @@ if (process.argv[2] === undefined) {
     }
     while (process.argv[j] != undefined) {
         process.argv[j] = process.argv[j] * 1;
-        if (process.argv[j] < biggest_n && process.argv[j] > process.argv[j - 1]) {
+        if (process.argv[j] < biggest_n && process.argv[j] > second_biggest_n) {
             second_biggest_n = process.argv[j];
         }
         j++
