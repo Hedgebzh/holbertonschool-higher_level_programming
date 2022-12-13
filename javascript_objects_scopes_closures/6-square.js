@@ -2,7 +2,7 @@
 const Square2 = require('./5-square.js');
 
 module.exports = class Square extends Square2 {
-  charPrint(c) {
+  charPrint (c) {
     let i = 0;
     let y = 0;
     let PrintSquare = '';
@@ -12,11 +12,11 @@ module.exports = class Square extends Square2 {
     }
     while (i < this.height) {
       while (y < this.width) {
-      PrintSquare += c
-      y++
+        PrintSquare += c;
+        y++;
       }
-      console.log(PrintSquare)
-      i++
+      console.log(PrintSquare);
+      i++;
     }
   }
 };
