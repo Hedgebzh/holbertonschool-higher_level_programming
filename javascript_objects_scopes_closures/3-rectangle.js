@@ -11,24 +11,16 @@ module.exports = class Rectangle {
 
   print () {
     let i = 0;
+    let y = 0;
+    let PrintRectangle = '';
 
     while (i < this.height) {
-      console.log('X'.repeat(this.width));
+      while (y < this.width) {
+        PrintRectangle += 'X';
+        y++;
+      }
+      console.log(PrintRectangle);
       i++;
     }
   }
 };
-/* print() {
-  let i = 0
-  let y = 0
-  let PrintRectangle = '';
-
-  while (i < this.height) {
-    while (y < this.weight) {
-      PrintRectangle += 'X';
-      y++;
-    }
-    console.log(PrintRectangle);
-    i++;
-  }
-} */
