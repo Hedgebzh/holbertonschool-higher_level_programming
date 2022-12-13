@@ -6,14 +6,3 @@ r1.print();
 
 const r2 = new Rectangle(10, 5);
 r2.print();
-
-
-/*print() {
-  let i = 0
-  let y = 0
-
-  while (i < this.height) {
-    console.log('X'.repeat(this.width));
-    i++;
-  }
-} */
